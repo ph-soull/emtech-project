@@ -64,7 +64,7 @@ nav {
     justify-content: center;
     text-align: center;
     /* background image */
-    background-image: url('/assets/images/content-images/intro-banner.jpg');
+    background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683084863/my%20content/intro-banner_mtizlh.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

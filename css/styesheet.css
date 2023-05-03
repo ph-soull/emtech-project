@@ -64,7 +64,7 @@ nav {
     justify-content: center;
     text-align: center;
     /* background image */
-    background-image: url('/emtech/assets/images/content-images/intro-banner.jpg');
+    background-image: url('/assets/images/content-images/intro-banner.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,14 +201,14 @@ main section .container a {
         width: 100%;
         height: 78px;
         display: flex;
-        background-image: url('/emtech/assets/images/covers/cover1.jpg');
+        background-image: url('/assets/images/covers/cover1.jpg');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
         z-index: 1;
     }
-    .cover2 {background-image: url('/emtech/assets/images/covers/cover2.jpg');} .cover3 {background-image: url('/emtech/assets/images/covers/cover3.jpg');} .cover4 {background-image: url('/emtech/assets/images/covers/cover4.jpg');} .cover5 {background-image: url('/emtech/assets/images/covers/cover5.jpg');} .cover6 {background-image: url('/emtech/assets/images/covers/cover6.jpg');} .cover7 {background-image: url('/emtech/assets/images/covers/cover7.jpg');} .cover8 {background-image: url('/emtech/assets/images/covers/cover8.jpg');}
+    .cover2 {background-image: url('/assets/images/covers/cover2.jpg');} .cover3 {background-image: url('/assets/images/covers/cover3.jpg');} .cover4 {background-image: url('/assets/images/covers/cover4.jpg');} .cover5 {background-image: url('/assets/images/covers/cover5.jpg');} .cover6 {background-image: url('/assets/images/covers/cover6.jpg');} .cover7 {background-image: url('/assets/images/covers/cover7.jpg');} .cover8 {background-image: url('/assets/images/covers/cover8.jpg');}
 
     .team-section img {
         border: 4px solid var(--third-color);

@@ -200,14 +200,20 @@ main section .container a {
         width: 100%;
         height: 78px;
         display: flex;
-        background-image: url('/assets/images/covers/cover1.jpg');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
         z-index: 1;
     }
-    .cover2 {background-image: url('/assets/images/covers/cover2.jpg');} .cover3 {background-image: url('/assets/images/covers/cover3.jpg');} .cover4 {background-image: url('/assets/images/covers/cover4.jpg');} .cover5 {background-image: url('/assets/images/covers/cover5.jpg');} .cover6 {background-image: url('/assets/images/covers/cover6.jpg');} .cover7 {background-image: url('/assets/images/covers/cover7.jpg');} .cover8 {background-image: url('/assets/images/covers/cover8.jpg');}
+    .cover1 {background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683087196/covers/cover1_ekpsh7.jpg');}
+    .cover2 {background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683087196/covers/cover2_lkgbkf.jpg');} 
+    .cover3 {background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683087195/covers/cover3_x95h0t.jpg');} 
+    .cover4 {background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683087196/covers/cover4_kzsoyw.jpg');} 
+    .cover5 {background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683087196/covers/cover5_thh3bt.jpg');} 
+    .cover6 {background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683087196/covers/cover6_tzwyev.jpg');} 
+    .cover7 {background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683087197/covers/cover7_wcir3w.jpg');} 
+    .cover8 {background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683087196/covers/cover8_en1fcf.jpg');}
 
     .team-section img {
         border: 4px solid var(--third-color);

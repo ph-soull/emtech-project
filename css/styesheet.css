@@ -293,9 +293,29 @@ main section .container a {
 
     footer nav .container {
         display: flex;
+        flex-direction: row;
         justify-content: center;
-        height: 300px;
         background-color: var(--main-color);
+    }
+    footer nav li, footer nav ul {
+        font-size: 0;
+        padding: 0;
+    }
+    footer nav li a, footer nav li{
+        text-decoration: none;
+        color: var(--secondary-color);
+        list-style-type: none;
+        display: inline-block;
+        margin: 20px;
+        font-size: 1rem;
+        padding: 0;
+    }
+    footer nav .copyrights {
+        background-color: #141516;
+        text-align: center;
+        color: var(--secondary-color);
+        padding: 0.1px;
+        font-size: 0.8rem;
     }
 
 

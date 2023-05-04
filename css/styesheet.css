@@ -358,6 +358,16 @@ main section .container a {
     .caption {
         font-size: 1.1rem;
     }
+    section .container-bg .container {
+        flex-direction: column;
+    }
+    section .width-paragraph {
+        margin-bottom: 20px;
+    }
+    section .container-bg img {
+        margin-top: 20px;
+    }
+
   }
 
 
@@ -416,5 +426,8 @@ main section .container a {
     }
     .caption {
         font-size: 1.1rem;
+    }
+    section .container-bg .container {
+        
     }
   }

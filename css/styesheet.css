@@ -17,16 +17,17 @@ nav {
     padding: 10px;
     position: fixed;
     width: 100%;
+    z-index: 1000;
+}
+.nav-logo {
+    background-image: url('https://res.cloudinary.com/duzzxz9hw/image/upload/v1683223298/my%20content/logo_q2ewrh.png');
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
     z-index: 1001;
 }
 .nav-logo {
-    display: flex;
-}
-.nav-logo a {
-    color: var(--secondary-color);
-    text-decoration: none;
-    display: inline-block;
-    margin: 10px;
     font-size: 1.3rem;
 }
 #js-navbar-toggle, .disabled-link {

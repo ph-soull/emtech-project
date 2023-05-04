@@ -10,7 +10,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 /* navbar section */
-nav {
+header nav {
     display: flex;
     justify-content: space-around;
     background-color: var(--main-color);
@@ -291,7 +291,7 @@ main section .container a {
 
 
 
-    footer .container {
+    footer nav .container {
         display: flex;
         justify-content: center;
         height: 300px;

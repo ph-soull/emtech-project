@@ -390,6 +390,16 @@ main section .container a {
 
 @media (max-width: 767px) {
     /* styles for small screens here */
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-logo {
+        margin-left: 30px;
+    }
+    .nav-links {
+        margin-right: 50px;
+    }
     #js-navbar-toggle {
         display: block;
         font-size: 1.2rem;

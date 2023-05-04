@@ -373,6 +373,16 @@ main section .container a {
     section .container-bg img {
         margin-left: 0px;
     }
+    section .container-bg .container {
+        flex-direction: column-reverse;
+    }
+    section .container-bg .width-paragraph {
+        margin: 0px; 
+        margin-top: 50px ;
+    }
+    section .container-bg img {
+        margin: 0;
+    }
   }
 
 
@@ -438,7 +448,6 @@ main section .container a {
     section .container-bg img {
         width: 390px;
         height: 340px;
-        margin-left: 0px;
     }
   }
 

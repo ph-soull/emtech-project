@@ -285,12 +285,7 @@ main section .container a {
         height: 340px;
         margin-left: 20px ;
     }
-
-
-
-
-
-
+/* footer section */
     footer nav .container {
         display: flex;
         flex-direction: row;

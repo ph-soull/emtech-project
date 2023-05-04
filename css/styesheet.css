@@ -259,13 +259,16 @@ main section .container a {
     section .container-bg {
         background-color: var(--secondary-color);
     }
-    section .container {
+    section .container-bg h4 {
+        text-align: center;
+    }
+    section .container-bg .container {
         display: flex;
         justify-content: center;
         align-items: center;
     }
     section .width-paragraph {
-        width: 300px;
+        width: 350px;
         font-size: 1.05rem;
     }
     section .container-bg img {

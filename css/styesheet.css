@@ -257,7 +257,11 @@ main section .container a {
     }
     /* about us section */
     section .container-bg {
-        background-color: var(--main-color);
+        background-color: var(--secondary-color);
+    }
+    section .container {
+        display: flex;
+        justify-content: space-evenly;
     }
 
 

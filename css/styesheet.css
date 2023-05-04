@@ -256,6 +256,9 @@ main section .container a {
         padding: 5px;
     }
     /* about us section */
+    section .container-bg {
+        background-color: var(--main-color);
+    }
 
 
 

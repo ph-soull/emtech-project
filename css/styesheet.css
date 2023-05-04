@@ -367,7 +367,12 @@ main section .container a {
     section .container-bg img {
         margin-top: 20px;
     }
-
+    section .container-bg .width-paragraph {
+        margin-right: 0px;
+    }
+    section .container-bg img {
+        margin-left: 0px;
+    }
   }
 
 
@@ -427,7 +432,12 @@ main section .container a {
     .caption {
         font-size: 1.1rem;
     }
-    section .container-bg .container {
-        
+    section .container-bg .width-paragraph {
+        width: 300px;
+    }
+    section .container-bg img {
+        width: 300px;
+        height: 250px;
+        margin-left: 0px;
     }
   }

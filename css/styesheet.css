@@ -409,7 +409,7 @@ main section .container a {
 
 @media (max-width: 767px) {
     /* styles for small screens here */
-    nav {
+    header nav {
         display: flex;
         justify-content: space-between;
     }

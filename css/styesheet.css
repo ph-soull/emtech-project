@@ -258,22 +258,30 @@ main section .container a {
     /* about us section */
     section .container-bg {
         background-color: var(--secondary-color);
+        padding-bottom: 70px ;
     }
     section .container-bg h4 {
         text-align: center;
+        padding: 60px;
+        font-size: 2rem;
+        margin: 0;
     }
     section .container-bg .container {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 0px;
     }
     section .width-paragraph {
-        width: 350px;
-        font-size: 1.05rem;
+        width: 500px;
+        font-size: 1.4rem;
+        margin: 0px;
+        margin-right: 20px;
     }
     section .container-bg img {
-        width: 350px;
-        height: 300px;
+        width: 390px;
+        height: 340px;
+        margin-left: 20px ;
     }
 
 

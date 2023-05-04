@@ -291,9 +291,11 @@ main section .container a {
 
 
 
-    .footer {
+    footer .container {
+        display: flex;
+        justify-content: center;
         height: 300px;
-        background-color: var(--third-color);
+        background-color: var(--main-color);
     }
 
 

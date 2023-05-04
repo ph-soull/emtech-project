@@ -14,6 +14,7 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: var(--main-color);
+    border-bottom: 1px solid #f0f5f97c;
     padding: 10px;
     position: fixed;
     width: 100%;

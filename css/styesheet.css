@@ -263,7 +263,9 @@ main section .container a {
         display: flex;
         justify-content: space-evenly;
     }
-
+    section .width-paragraph {
+        width: 300px;
+    }
 
 
 

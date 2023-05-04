@@ -433,11 +433,22 @@ main section .container a {
         font-size: 1.1rem;
     }
     section .container-bg .width-paragraph {
-        width: 300px;
+        width: 550px;
     }
     section .container-bg img {
-        width: 300px;
-        height: 250px;
+        width: 390px;
+        height: 340px;
         margin-left: 0px;
+    }
+  }
+
+  @media (max-width: 630px) {
+    /* styles for small screens here */
+    section .container-bg .width-paragraph {
+        width: 85%;
+    }
+    section .container-bg img {
+        width: 380px;
+        height: 330px; 
     }
   }

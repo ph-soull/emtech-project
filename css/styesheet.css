@@ -261,10 +261,16 @@ main section .container a {
     }
     section .container {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
     }
     section .width-paragraph {
         width: 300px;
+        font-size: 1.05rem;
+    }
+    section .container-bg img {
+        width: 350px;
+        height: 300px;
     }
 
 

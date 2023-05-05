@@ -297,10 +297,10 @@ main section .container a {
         padding: 0;
     }
     footer nav li a, footer nav li{
+        display: inline-block;
         text-decoration: none;
         color: var(--secondary-color);
         list-style-type: none;
-        display: inline-block;
         margin: 20px;
         font-size: 1rem;
         padding: 0;
@@ -474,6 +474,14 @@ main section .container a {
     section .container-bg img {
         width: 390px;
         height: 340px;
+    }
+    footer nav .container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    footer nav li a, footer nav li {
+        display: block;
     }
   }
 
